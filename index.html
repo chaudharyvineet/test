@@ -20,7 +20,8 @@
 </head>
     
   <body>
-      
+      <div class="chupa"></div>
+
        <div class="section">
     <div id="header" class="container logo_bar">
      
@@ -457,6 +458,7 @@
           </div>
     </div>
       </div>
+
       
       <footer class="nav-down" id="halt">
     <div id="myNav" class="overlay">
@@ -623,11 +625,16 @@ function hasScrolled() {
 
 function openNav() {
     document.getElementById("myNav").style.height = "430px";
+    $('.chupa').addClass('rustam');
+    $('body').addClass('ovfl');
+   
+    
 }
 
 function closeNav() {
     document.getElementById("myNav").style.height = "0%";
     $("#hde").show();
+     $('.chupa').removeClass('rustam');
 }
          
         </script>
