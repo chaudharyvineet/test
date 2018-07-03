@@ -517,7 +517,7 @@
 
 <div onclick="openNav()">
           <div class="row adbnr">
-        <div class="col-9 pad-none"><img class="adbarimg" src="logo.svg"> <span class="you_might">You might like this</span></div>
+        <div class="col-9 pad-none" onclick="khulja()"><img class="adbarimg" src="logo.svg"> <span class="you_might">You might like this</span></div>
         <div class="col-3"><a href="javascript:void(0)" class="closebtn hide_popup" onclick="hde()"><i class="fa fa-times"></i></a></div>
     </div> 
     
@@ -628,11 +628,14 @@ function hasScrolled() {
 
 function openNav() {
     document.getElementById("myNav").style.height = "430px";
-    $('.chupa').addClass('rustam');
-    $('body').addClass('ovfl');
+    
    
     
 }
+         function khulja(){
+             $('.chupa').addClass('rustam');
+    $('body').addClass('ovfl');
+         }
 
 function closeNav() {
     document.getElementById("myNav").style.height = "0%";
