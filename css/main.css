@@ -148,7 +148,7 @@ background: rgba(0,0,0,10.8);
     top: 25%;
     width: 100%;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 0px;
     z-index: 1;
     overflow-y: hidden;
 }
