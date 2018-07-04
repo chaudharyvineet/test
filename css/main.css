@@ -132,7 +132,8 @@ background: rgba(0,0,0,10.8);
     font-size: 14px;
     color:grey;
     font-weight: 600;
-    text-align: center;
+    text-align: left;
+ display: inline-block;
 }
 
 
