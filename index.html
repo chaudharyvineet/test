@@ -642,14 +642,16 @@ function closeNav() {
     $("#hde").show();
      $('.chupa').removeClass('rustam');
     $('body').removeClass('ovfl');
+    $('#myNav').removeClass('rev_ovfl');
 }
          
         </script>
      
       <script>
      function inc() {
-    document.getElementById("myNav").style.height = "90vh";
+    document.getElementById("myNav").style.height = "100vh";
          $("#hde").hide();
+         $('#myNav').addClass('rev_ovfl');
 }
          
       </script>
