@@ -5,6 +5,9 @@ body {
 .ovfl{
     overflow-y: hidden;
 }
+.rev_ovfl{
+    overflow-y: scroll!important;
+}
 
 .top_bar{
     display: inline-block;
